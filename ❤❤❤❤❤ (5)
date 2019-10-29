@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int a,b,c,d,q;
+cin>>q;
+a= q / 1000;
+b= (q / 100) % 10;
+c= (q / 10) % 10;
+d= q % 10;
+if (a == d && b == c)
+{
+cout << "TRUE";
+    }
+else
+    {
+cout << "FALSE";
+    }
+    
+    
+}
